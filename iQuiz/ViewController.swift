@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var questions: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        questions.text = desc[myIndex]
+    }
+
+    @IBAction func back(_ sender: Any) {
+        performSegue(withIdentifier: "back", sender: self)
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,6 +10,8 @@ import UIKit
 
 var subjects = ["Mathematics", "Marvel Super Heroes", "Science"]
 var desc = ["Math questions", "Marvel questions", "Science questions"]
+var quests = ["Question1", "Question2", "Question3"]
+var answers = [["answer1", "answer2", "answer3", "answer4"],["answer1", "answer2", "answer3", "answer4"],["answer1", "answer2", "answer3", "answer4"]]
 var pics = ["math", "marvel", "science"]
 var myIndex = 0
 

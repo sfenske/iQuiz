@@ -20,6 +20,8 @@
 		172BF70A1EB934F800134CFD /* math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 172BF7071EB934F700134CFD /* math.jpg */; };
 		172BF70B1EB934F800134CFD /* science.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 172BF7081EB934F800134CFD /* science.jpg */; };
 		172BF70D1EB935C600134CFD /* TVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172BF70C1EB935C600134CFD /* TVCTableViewCell.swift */; };
+		172BF70F1EC280F000134CFD /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172BF70E1EC280F000134CFD /* AnswerViewController.swift */; };
+		172BF7111EC2830500134CFD /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172BF7101EC2830500134CFD /* FinishedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		172BF7071EB934F700134CFD /* math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math.jpg; sourceTree = "<group>"; };
 		172BF7081EB934F800134CFD /* science.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = science.jpg; sourceTree = "<group>"; };
 		172BF70C1EB935C600134CFD /* TVCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCTableViewCell.swift; sourceTree = "<group>"; };
+		172BF70E1EC280F000134CFD /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		172BF7101EC2830500134CFD /* FinishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			children = (
 				172BF6D41EB8FEC100134CFD /* AppDelegate.swift */,
 				172BF6D61EB8FEC100134CFD /* ViewController.swift */,
+				172BF70E1EC280F000134CFD /* AnswerViewController.swift */,
+				172BF7101EC2830500134CFD /* FinishedViewController.swift */,
 				172BF70C1EB935C600134CFD /* TVCTableViewCell.swift */,
 				172BF6D81EB8FEC100134CFD /* Main.storyboard */,
 				172BF7021EB923E000134CFD /* TableViewController.swift */,
@@ -283,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172BF7111EC2830500134CFD /* FinishedViewController.swift in Sources */,
+				172BF70F1EC280F000134CFD /* AnswerViewController.swift in Sources */,
 				172BF6D71EB8FEC100134CFD /* ViewController.swift in Sources */,
 				172BF7051EB92E5000134CFD /* buttonController.swift in Sources */,
 				172BF70D1EB935C600134CFD /* TVCTableViewCell.swift in Sources */,
@@ -538,6 +546,7 @@
 				172BF6FB1EB8FEC200134CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		172BF6FC1EB8FEC200134CFD /* Build configuration list for PBXNativeTarget "iQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +555,7 @@
 				172BF6FE1EB8FEC200134CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		172BF6FF1EB8FEC200134CFD /* Build configuration list for PBXNativeTarget "iQuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +564,7 @@
 				172BF7011EB8FEC200134CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
